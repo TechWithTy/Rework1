@@ -592,3 +592,12 @@ margin-left: 15%;
     width: 30%;
   }
 }
+
+#root > div > div > ul > li:nth-child(4) > a.link.code{ 
+    width: 50%;
+    margin-left: 25%;
+}
+
+#root > div > div > ul > li:nth-child(4) > a:nth-child(3){
+  display:none;
+}
