@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div className="main-content home">
-        <h2>About Me</h2>
+        <img src="https://cdn1.imggmi.com/uploads/2019/4/25/eb6b7244912255d3e3f68829e3a8228b-full.png"alt="About me banner"></img>
        
         <p className="about">I am in love with code, starting with my first website in high school.Where I built a simple webpage using only Javascript and HTML, to learning about how machine learning works in my College class. Programming is an ongoing process of learning and creating. This is what draws me to programming. I also love solving problems, being creative and love technology. I believe this is why I chose this as my career field. I hope you choose me as your programmer as I would be a great fit for your team or your needs.</p>
         {/* Add Email Button */}
@@ -22,7 +22,10 @@ class Home extends Component {
 
           <ul>
         <li><a href="https://www.linkedin.com/in/tyrique-daniel-764586b5/" className="social linkedin" target="_blank rel="noreferrer="">LinkedIn</a></li>
-        <li><a href="https://github.com/CodingOni" className="social github" target="_blank" rel="noreferrer">Github</a></li>
+        <li><a href="https://github.com/CodingOni" className="social github" target="_blank"  rel="noopener noreferrer">Github</a></li>
+        <li><a href="https://www.sololearn.com/Profile/280099/?ref=app" className="social sololearn" target="_blank rel="noreferrer="">SoloLearn</a></li>
+        <li><a href="https://www.sololearn.com/Profile/280099/?ref=app" className="social SO" target="_blank rel="noreferrer="">SoloLearn</a></li>
+
       </ul>
         <hr />
         <h3>What i am currently Using </h3>

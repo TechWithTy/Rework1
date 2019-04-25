@@ -182,6 +182,7 @@ header {
   body {
     padding-top: .8em;
   }
+ 
   
   .home a {
     border-color: transparent;
@@ -339,6 +340,17 @@ a.github {
   background-image: url(./github.svg);
   border: none;
 }
+
+a.sololearn {
+  background-image: url(https://code.sololearn.com/Icons/Avatars/1.jpg);
+  border: none;
+}
+
+a.SO {
+  background-image: url(https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=f13ebeedfa9e);
+  border: none;
+}
+
 a.social:hover {
   opacity: 1;
 }
@@ -361,6 +373,126 @@ ul.skills {
   background: #960088db;
 }
 
+
+a.link {
+  padding: 8px 12px;
+    font-family: Helvetica Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 4px solid #a04998;
+    border-radius: 6px;
+    background-color: #6edcd1;
+    margin-left: 20%;
+    width: 20%;
+    text-align: center;
+    
+   
+    -webkit-animation: jump 5s ease 0s infinite normal ;
+    animation: jump 5s ease 0s infinite normal ;
+ 
+
+}
+
+
+
+
+.link:hover {
+  border-color: #002746
+}
+
+.link:active {
+  color: aqua;
+  background-color: #3e8e41;
+  box-shadow: inset 10px 10px 5px #888888,
+                    inset -10px -10px 5px #888888;
+    transform: translateY(4px);
+}
+
+a.link:hover {
+  padding: 8px 12px;
+  font-family: Helvetica Arial, sans-serif;
+  font-size: 14px;
+  color: #a04998;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 4px solid #a04998;
+  border-radius: 6px;
+  transition: all .5s;
+  background-color: #5cdb94;
+}
+
+a.code {
+  padding: 8px 12px;
+    font-family: Helvetica Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 4px solid #a04998;
+    border-radius: 6px;
+    background-color: #6edcd1;
+    margin-left: 20%;
+    width: 20%;
+    text-align: center;
+    
+   
+    -webkit-animation: jump 5s ease 5s infinite normal ;
+    animation: jump 5s ease 5s infinite normal ;
+ 
+
+}
+
+.link:hover {
+  border-color: #002746
+}
+
+.code:active {
+  color: aqua;
+  background-color: #3e8e41;
+  box-shadow: inset 10px 10px 5px #888888,
+                    inset -10px -10px 5px #888888;
+    transform: translateY(4px);
+}
+
+a.code:hover {
+  padding: 8px 12px;
+  font-family: Helvetica Arial, sans-serif;
+  font-size: 14px;
+  color: #a04998;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 4px solid #a04998;
+  border-radius: 6px;
+  transition: all .5s;
+  background-color: #5cdb94;
+}
+/* Project title */
+#root > div > div > ul > li > h3{
+  position: relative;
+  left: 0px;
+  top: -18px;
+  transition: none 0s ease 0s;
+  cursor: move;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+}
+/* Projects Header */
+#root > div > div > h2 {
+  margin-left: auto;
+}
+/* About me picture */
+#root > div > div > img {
+border-radius: 25px;
+width: 75%;
+margin-left: 15%;
+}
 
 @-webkit-keyframes zoom-in-out {
   0%{
@@ -389,5 +521,74 @@ ul.skills {
   100%{
 	-ms-transform: scale(1);
 	transform: scale(1);
+  }
+}
+
+@-webkit-keyframes jump {
+  0%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  20%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  40%{
+	-webkit-transform: translateY(-30px);
+	transform: translateY(-30px);
+  }
+  50%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  60%{
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+  }
+  80%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+  100%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0%{
+	transform: translateY(0);
+  }
+  20%{
+	transform: translateY(0);
+  }
+  40%{
+	transform: translateY(-30px);
+  }
+  50%{
+	transform: translateY(0);
+  }
+  60%{
+	transform: translateY(-15px);
+  }
+  80%{
+	transform: translateY(0);
+  }
+  100%{
+	transform: translateY(0);
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) { 
+  body {
+    padding-top: .8em;
+  }
+  #root > div > div > img {
+    border-radius: 25px;
+    width: 100%;
+    
+  }
+  a.email{
+    width: 30%;
   }
 }
