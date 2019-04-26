@@ -6,7 +6,7 @@ const Header = () => (
     <ul className="main-nav">
       <li><NavLink exact to="/" activeStyle={{background: '#6edcd1'}}>Home</NavLink></li>
       <li><NavLink to="/teachers" >Projects</NavLink></li>
-      <li><NavLink to="/courses">Courses</NavLink></li>
+      <li><NavLink to="/courses">Skills</NavLink></li>
     </ul>    
   </header>
 );

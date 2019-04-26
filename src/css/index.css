@@ -268,9 +268,13 @@ header {
     float: left;
   }
 }
+
 .about{
 font-size: 19px;
 color: black;
+width: 50%;
+    margin: auto;
+
 }
 
 a.email {
@@ -593,11 +597,13 @@ margin-left: 15%;
   }
 }
 
-#root > div > div > ul > li:nth-child(4) > a.link.code{ 
+#root > div > div > ul > li:nth-child(6) > a.link.code{ 
     width: 50%;
     margin-left: 25%;
 }
 
-#root > div > div > ul > li:nth-child(4) > a:nth-child(3){
+#root > div > div > ul > li:nth-child(6) > a:nth-child(3) > h3,
+#root > div > div > ul > li:nth-child(6) > a:nth-child(3){
   display:none;
 }
+

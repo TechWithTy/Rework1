@@ -10,7 +10,7 @@ const Courses = ({match}) => (
       <h2>Skills</h2> 
       <ul className="course-nav">
         <li><NavLink to={`${match.url}/html`}>Front-End</NavLink></li>
-        <li><NavLink to={`${match.url}/css`}>FrameWorks</NavLink></li>
+        <li><NavLink to={`${match.url}/css`}>Back-End</NavLink></li>
         <li><NavLink to={`${match.url}/javascript`}>Utilities</NavLink></li>
       </ul>
     </div>

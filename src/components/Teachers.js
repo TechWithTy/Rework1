@@ -13,13 +13,9 @@ const Teachers = () => {
     
         
         <p>{teacher.bio}</p>
-        <ul className="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Vanilla Javascript</li>
-          
-
-        </ul>
+        <p>
+          {teacher.used}
+        </p>
       </li>
       
     
