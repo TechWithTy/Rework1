@@ -18,7 +18,7 @@ class Home extends Component {
             Email Me
         </a>
         
-        <a  href="https://drive.google.com/file/d/1o5Fxe49MugM1b2Z6IW2lN6s1gXqmvcTf/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="email">
+        <a  href="https://drive.google.com/file/d/1o5Fxe49MugM1b2Z6IW2lN6s1gXqmvcTf/view?usp=sharingn" target="_blank" rel="noopener noreferrer" className="email">
             Resume        
           </a>
 
