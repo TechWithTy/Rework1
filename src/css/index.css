@@ -364,7 +364,7 @@ ul.skills {
   text-align: center;
 }
 
-.skills li {
+#root > div > div > ul > li> p:nth-child(6) {
   border-radius: 6px;
   display: inline-block;
   background: black;
@@ -373,7 +373,7 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
+#root > div > div > ul > li> p:nth-child(6){
   background: #960088db;
 }
 
@@ -607,3 +607,8 @@ margin-left: 15%;
   display:none;
 }
 
+#root > div > div > ul > li > p{
+  color: black;
+  background-color: #33fff142;
+  border-radius: 20px;
+}
