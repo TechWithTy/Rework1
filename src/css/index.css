@@ -498,6 +498,12 @@ width: 75%;
 margin-left: 15%;
 }
 
+.description{
+  position: relative;
+  left: 234px;
+  top: -68px;
+  }
+
 @-webkit-keyframes zoom-in-out {
   0%{
 	-webkit-transform: scale(1);
@@ -619,9 +625,15 @@ margin-left: 15%;
     width: 75%;
     margin-left: 10%;
 }
+.description{
+  position: relative;
+  left: 25%;
+  top: -50px;
+  }
 
 
-#root > div > div > img:nth-child(2) {
+
+#root > div > div > div > img {
   width: 15%;
   margin-left: 40%;
 }
@@ -635,7 +647,8 @@ margin-left: 15%;
 }
 
 
-#root > div > div > img:nth-child(2) {
+#root > div > div > div > img{
   width: 10%;
   margin-left: 45%;
 }
+
