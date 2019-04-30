@@ -612,3 +612,30 @@ margin-left: 15%;
   background-color: #33fff142;
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  #root > div > div > img {
+    border-radius: 25px;
+    width: 75%;
+    margin-left: 10%;
+}
+
+
+#root > div > div > img:nth-child(2) {
+  width: 15%;
+  margin-left: 40%;
+}
+
+.about {
+  font-size: 19px;
+  color: black;
+  width: 100%;
+  margin: auto;
+}
+}
+
+
+#root > div > div > img:nth-child(2) {
+  width: 10%;
+  margin-left: 45%;
+}
